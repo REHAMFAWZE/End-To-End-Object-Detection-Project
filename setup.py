@@ -1,0 +1,36 @@
+from setuptools import find_packages, setup
+
+setup(
+    name="SignLanguage",
+    version="0.0.0",
+    author="iNeuron",
+    author_email="remonaaa734@gmail.com",
+    packages=find_packages(),
+    install_requires=[
+        "dill==0.3.5.1",
+        "from-root==1.0.2",
+        "notebook==7.0.0a7",
+        "boto3",
+        "mypy-boto3-s3",
+        "flask-cors",
+        "flask",
+        "gitpython>=3.1.30",
+        "matplotlib>=3.5.3",
+        "numpy>=1.23.5",
+        "opencv-python>=4.1.1",
+        "pillow>=10.3.0",
+        "psutil",
+        "PyYAML>=5.3.1",
+        "requests>=2.32.2",
+        "scipy>=1.4.1",
+        "thop>=0.1.1",
+        "torch>=1.8.0",
+        "torchvision>=0.9.0",
+        "tqdm>=4.66.3",
+        "ultralytics>=8.2.64",
+        "pandas>=1.1.4",
+        "seaborn>=0.11.0",
+        "setuptools>=70.0.0",
+        "packaging"
+    ]
+)
